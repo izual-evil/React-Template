@@ -1,0 +1,16 @@
+export default {
+  add: "Add",
+  edit: "Edit",
+  delete: "Delete",
+  cancel: "Cancel",
+  confirm: "Confirm",
+  reset: "Reset",
+  search: "Search",
+  export: "Export",
+  import: "Import",
+  refresh: "Refresh",
+  save: "Save",
+  close: "Close",
+  back: "Back",
+  submit: "Submit",
+};

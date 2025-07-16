@@ -1,0 +1,16 @@
+export default {
+  add: "新增",
+  edit: "修改",
+  delete: "删除",
+  cancel: "取消",
+  confirm: "确定",
+  reset: "重置",
+  search: "搜索",
+  export: "导出",
+  import: "导入",
+  refresh: "刷新",
+  save: "保存",
+  close: "关闭",
+  back: "返回",
+  submit: "提交",
+};

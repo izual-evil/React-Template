@@ -1,0 +1,36 @@
+export default {
+  root: "首頁",
+  year: "年",
+  month: "月",
+  day: "日",
+  week: {
+    sunday: "星期天",
+    monday: "星期一",
+    tuesday: "星期二",
+    wednesday: "星期三",
+    thursday: "星期四",
+    friday: "星期五",
+    saturday: "星期六",
+  },
+  text: {
+    come: "歡迎回來！",
+    work: "祝你工作順利！",
+    today: "今天是",
+    support: "項目支持",
+    myProject: "我的開源",
+    todo: "待辦事項",
+  },
+  project: {
+    internationalization: "國際化",
+    themeChange: "主題更換",
+    darkMode: "暗黑模式",
+    accessControl: "許可權控制",
+    interDesc: "通過簡單配寘實現語言切換",
+    themeDesc: "主題隨意更換，個性化需求",
+    darkDesc: "暗黑模式，護眼必須",
+    roleDesc: "許可權控制，選單顯示",
+    vue3: "基於Vue3 + Vite + Pinia + Element-Plus的後臺管理系統範本",
+    react:
+      "基於React18 + Ts + Vite + zustand + Antd + unocss的後臺管理系統範本",
+  },
+};
