@@ -1,0 +1,28 @@
+.login-box {
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('@/assets/images/login.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px); /* 调整模糊程度 */
+    z-index: -1;
+  }
+  &::after {
+     content: "";
+      position: absolute;
+      top: 20%; /* 调整为需要的具体位置 */
+      left: 25%; /* 调整为需要的具体位置 */
+      width: 50%; /* 根据需要调整大小 */
+      height: 50%; /* 根据需要调整大小 */
+      border-radius: 10px;
+      background-image: url('@/assets/images/login.jpg');
+      background-size: cover;
+      background-position: center;
+      z-index: 0;
+  }
+}
